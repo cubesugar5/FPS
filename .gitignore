@@ -1,6 +1,13 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# JetBrains IDE user-specific files
+.idea/
+
+# Visual Studio Code user-specific files
+.vscode/
+*.code-workspace
+
 # Compiled Object files
 *.slo
 *.lo
@@ -35,6 +42,7 @@
 *.xcodeproj
 *.xcworkspace
 *.sln
+*.slnx
 *.suo
 *.opensdf
 *.sdf
@@ -45,6 +53,9 @@
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
+
+# Unreal Engine user-specific assets
+Content/Developers/
 
 # Binary Files
 Binaries/*
@@ -73,3 +84,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
